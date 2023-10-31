@@ -1,7 +1,8 @@
 import { styled } from 'styled-components'
 const Wrapper = styled.section`
+  padding: 0 0.5rem;
   form {
-    width: 70%;
+    width: 100%;
     max-width: 35rem;
     margin: 5rem auto;
     background: var(--grey-100);
