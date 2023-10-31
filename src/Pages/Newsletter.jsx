@@ -11,6 +11,7 @@ const Newsletter = () => {
   return (
     <Wrapper>
       <Form method='POST'>
+        <header>Welcome to our Newsletter</header>
         <div className='first-name'>
           <label htmlFor='fName'>First Name</label>
           <input type='text' id='fName' name='fName' required />
