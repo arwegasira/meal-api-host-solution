@@ -23,10 +23,11 @@ const Wrapper = styled.section`
       border: 1px solid var(--grey-200);
       border-radius: var(--borderRadius);
       outline: none;
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
     label {
       font-size: var(--small-text);
+      padding-left: 0.4rem;
     }
     button {
       padding: 0.4rem;
@@ -41,7 +42,6 @@ const Wrapper = styled.section`
       text-align: center;
       margin-bottom: 1rem;
       line-height: 1.2;
-      /* letter-spacing: var(--letterSpacing); */
       font-weight: bold;
       font-size: clamp(1rem, 3vw, 1.3rem);
     }
