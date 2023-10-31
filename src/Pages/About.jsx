@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom'
 const About = () => {
   return (
-    <div>
-      <h2>About</h2>
-      <Link to='/'>Go Home</Link>
-    </div>
+    <section
+      style={{
+        display: 'grid',
+        placeItems: 'center',
+        gap: '0.5rem',
+        padding: '5rem 0',
+      }}
+    >
+      <p>Email: ac.rwegasira@gmail.com</p>
+      <p>Phone: (+250)-785298619</p>
+    </section>
   )
 }
 export default About
