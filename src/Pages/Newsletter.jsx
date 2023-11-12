@@ -1,13 +1,24 @@
 import { Form, useNavigation } from 'react-router-dom'
 import Wrapper from '../StyledComponents/NewsletterWrapper'
+import subscribe from '../Axios/subscribe'
+import axios from 'axios'
+import { toast } from 'react-toastify'
 export const action = async ({ request }) => {
   let formData = await request.formData()
   formData = Object.fromEntries(formData)
+  try {
+    const { data } = await subscribe.post('/subscribe', formData)
+    toast.success(data.msg)
+  } catch (error) {
+    toast.error(error?.response?.data?.msg)
+  }
+
   return null
 }
 const Newsletter = () => {
   const navigation = useNavigation()
   const isSubmitting = navigation.state === 'submitting'
+
   return (
     <Wrapper>
       <Form method='POST'>
