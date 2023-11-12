@@ -9,7 +9,7 @@ const Navigation = () => {
         <div className='nav-links'>
           <NavLink to='/'>Home</NavLink>
           <NavLink to='about'>Contacts</NavLink>
-          <NavLink to='newsletter'>Newsletter</NavLink>
+          <NavLink to='newsletter'>Subscribe</NavLink>
         </div>
         <ToggleTheme></ToggleTheme>
       </div>
