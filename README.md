@@ -1,8 +1,47 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Meal Info
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This web project showcases a list of meals fetched dynamically from TheMealDB API [meal api](https://www.themealdb.com/api/json/v1/)
+
+## Tech Stack
+
+- React JS
+- Styled Component for styling
+- Axios To Fetch data
+- React query
+- React Router Dom for Routing
+- React Icons
+
+## Architecture
+
+## Folder Structure
+
+## Set up
+
+1. Clone The Repository
+   ```bash
+   git clone git@github.com:arwegasira/meal-api-host-solution.git
+   ```
+2. Install Dependencies
+   ```bash
+   npm install
+   ```
+
+## Running the Project
+
+1. Dev server
+
+```bash
+npm run dev
+```
+
+2. Production Server
+
+```bash
+npm build
+```
+
+##
