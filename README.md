@@ -19,6 +19,50 @@ This web project showcases a list of meals fetched dynamically from TheMealDB AP
 
 ## Folder Structure
 
+.
+├── CLAUDE.md
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── \_redirects
+│   └── favicon-32x32.png
+├── src
+│   ├── App.jsx
+│   ├── AppContext.jsx
+│   ├── Axios
+│   │   ├── customFetch.js
+│   │   └── subscribe.js
+│   ├── Components
+│   │   ├── Meal.jsx
+│   │   ├── MealList.jsx
+│   │   ├── Navigation.jsx
+│   │   ├── SearchForm.jsx
+│   │   └── ToggleTheme.jsx
+│   ├── Pages
+│   │   ├── About.jsx
+│   │   ├── Error.jsx
+│   │   ├── HomeLayout.jsx
+│   │   ├── Landing.jsx
+│   │   ├── Newsletter.jsx
+│   │   ├── SingleMeal.jsx
+│   │   └── index.js
+│   ├── StyledComponents
+│   │   ├── ErrorWrapper.js
+│   │   ├── MealCard.jsx
+│   │   ├── MealistWrapper.js
+│   │   ├── NavWrapper.js
+│   │   ├── NewsletterWrapper.js
+│   │   ├── SearchFormWrapper.js
+│   │   └── SingleMealWrapper.js
+│   ├── assets
+│   │   ├── notFoundDark.svg
+│   │   └── pageNotFound.svg
+│   ├── index.css
+│   └── main.jsx
+└── vite.config.js
+
 ## Set up
 
 1. Clone The Repository
