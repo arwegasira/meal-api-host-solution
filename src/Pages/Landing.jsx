@@ -16,7 +16,7 @@ const queryOptions = (searchTerm) => {
 export const loader =
   (queryClient) =>
   async ({ request }) => {
-    const searchUrl = new URL(await request.url)
+    const searchUrl = new URL(request.url)
     const searchTerm = searchUrl.searchParams.get('search') || ''
     await queryClient.ensureQueryData(queryOptions(searchTerm))
     return { searchTerm }
@@ -24,7 +24,7 @@ export const loader =
 const Landing = () => {
   const navigation = useNavigation()
   const loading = navigation.state === 'loading'
-  const { searchTerm } = useLoaderData(loader)
+  const { searchTerm } = useLoaderData()
   const response = useQuery(queryOptions(searchTerm))
   const meals = response?.data?.meals
   if (loading) {

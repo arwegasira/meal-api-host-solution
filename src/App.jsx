@@ -22,7 +22,7 @@ const routes = createBrowserRouter([
     children: [
       {
         element: <Landing></Landing>,
-        index: 1,
+        index: true,
         loader: landingLoader(queryClient),
       },
       {
