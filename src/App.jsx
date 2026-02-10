@@ -7,6 +7,7 @@ import {
   Error,
   SingleMeal,
   Newsletter,
+  Preview,
 } from './Pages/index'
 import { loader as landingLoader } from './Pages/Landing'
 import { loader as SingleMealLoader } from './Pages/SingleMeal'
@@ -36,6 +37,7 @@ const routes = createBrowserRouter([
         action: newsletterAction,
       },
       { path: 'about', element: <About></About> },
+      { path: 'preview', element: <Preview></Preview> },
     ],
   },
 ])

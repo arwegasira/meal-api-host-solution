@@ -9,5 +9,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <AppContext>
     <App />
     <ToastContainer position='top-center'></ToastContainer>
-  </AppContext>
+  </AppContext>,
 )
